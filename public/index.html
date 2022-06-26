@@ -199,17 +199,58 @@
           </div>
         </div>
       </section>
-      <section id="get-in-touch" class="section-get-touch">
+      <section id="get-in-touch" class="section-get-in-touch">
         <div class="section-wrapper">
           <div class="get-in-touch__info flex-column">
-            <h3 class="get-in-touch__info-heading">Case Studies</h3>
+            <h3 class="get-in-touch__info-heading">Get In Touch</h3>
             <p class="get-in-touch__info-text">
-              Solving user & business problems since last 15+ years. <br />
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              <br />
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <br />eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
+          <form class="get-in-touch__form">
+            <div class="get-in-touch__form-input-wrapper">
+              <label class="get-in-touch__form-label" for="get-in-touch-email"
+                >Email</label
+              >
+              <input
+                class="get-in-touch__form-input"
+                id="get-in-touch-email"
+                type="email"
+                placeholder="Please enter your email"
+              />
+            </div>
+            <div class="get-in-touch__form-input-wrapper">
+              <label class="get-in-touch__form-label" for="get-in-touch-mobile"
+                >Mobile</label
+              >
+              <input
+                class="get-in-touch__form-input"
+                id="get-in-touch-mobile"
+                type="text"
+                placeholder="Enter your mobile"
+              />
+            </div>
+            <div class="get-in-touch__form-input-wrapper">
+              <label class="get-in-touch__form-label" for="get-in-touch-message"
+                >Messages</label
+              >
+              <textarea
+                class="get-in-touch__form-input"
+                id="get-in-touch-message"
+                type="text"
+                placeholder="Enter your message"
+              ></textarea>
+            </div>
+            <!-- TODO type="submit" and preventDefault -->
+            <button class="get-in-touch__form-button">
+              Submit
+              <object
+                data="../public/icons/right-arrow.svg"
+                height="10"
+              ></object>
+            </button>
+          </form>
         </div>
       </section>
     </main>
